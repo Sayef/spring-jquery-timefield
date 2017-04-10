@@ -16,4 +16,4 @@ $(document).ready(function () {
     $('#myFormId').validate({
         ignore: ':hidden:not(.time-input), .time-input-control'
     });
-}
+});
