@@ -16,8 +16,9 @@
     <script src="resources/js/script.js" type="text/javascript"/>
 </head>
 <body>
-    <form:form id="AllPointBulletinForm" modelAttribute="allPointBulletin" method="post" cssClass="" formUrl="${action}">
-        <jsp:include page="form.jsp"/>
+    <c:url var="action" value="/timeField/create.html"/>
+    <form:form id="TimeFieldForm" modelAttribute="timeField" method="post" cssClass="" formUrl="${action}">
+        <jsp:include page="timeFieldForm.jsp"/>
     </form:form>
 </body>
 </html>
